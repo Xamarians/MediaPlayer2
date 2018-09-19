@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xamarians.MediaPlayer</id>
+    <version>2.0.0-beta</version>
+    <title>Xamarians - MediaPlayer</title>
+    <authors>Xamarians</authors>
+    <owners>Xamarians</owners>
+    <licenseUrl>https://github.com/Xamarians/MediaPlayer/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Xamarians/MediaPlayer</projectUrl>
+    <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Cross Platform Media Player to play videos in Xamarin.Forms. Supports android and iOS platforms.</description>
+    <releaseNotes>fixed iOS linking issue and crashes.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Video VideoPlayer Media MediaPlayer</tags>
+  </metadata>
+  
+  <files>
+     <!--Core-->
+     <file src="..\Xamarians.MediaPlayer\bin\Debug\Xamarians.MediaPlayers.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Xamarians.MediaPlayers.dll" />
+     <file src="..\Xamarians.MediaPlayer\bin\Debug\Xamarians.MediaPlayers.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Xamarians.MediaPlayers.pdb" />
+ 
+     <!--Xamarin.Android-->
+     <file src="..\Xamarians.MediaPlayer.Droid\bin\Debug\Xamarians.MediaPlayers.dll" target="lib\MonoAndroid10\Xamarians.MediaPlayers.dll" />
+     <file src="..\Xamarians.MediaPlayer.Droid\bin\Debug\Xamarians.MediaPlayers.pdb" target="lib\MonoAndroid10\Xamarians.MediaPlayers.xml" />
+     <file src="..\Xamarians.MediaPlayer.Droid\bin\Debug\Xamarians.MediaPlayers.Droid.dll" target="lib\MonoAndroid10\Xamarians.MediaPlayers.Droid.dll" />
+     <file src="..\Xamarians.MediaPlayer.Droid\bin\Debug\Xamarians.MediaPlayers.Droid.pdb" target="lib\MonoAndroid10\Xamarians.MediaPlayers.Droid.pdb" />
+    
+     <!--Xamarin.iOS-->
+     <file src="..\Xamarians.MediaPlayer.iOS\bin\Debug\Xamarians.MediaPlayers.dll" target="lib\MonoTouch10\Xamarians.MediaPlayers.dll" />
+     <file src="..\Xamarians.MediaPlayer.iOS\bin\Debug\Xamarians.MediaPlayers.pdb" target="lib\MonoTouch10\Xamarians.MediaPlayers.xml" />
+     <file src="..\Xamarians.MediaPlayer.iOS\bin\Debug\Xamarians.MediaPlayers.iOS.dll" target="lib\MonoTouch10\Xamarians.MediaPlayers.iOS.dll" />
+     <file src="..\Xamarians.MediaPlayer.iOS\bin\Debug\Xamarians.MediaPlayers.iOS.pdb" target="lib\MonoTouch10\Xamarians.MediaPlayers.iOS.pdb" />
+   
+ 
+     <!--Xamarin.iOS Unified-->
+     <file src="..\Xamarians.MediaPlayer.iOS\bin\Debug\Xamarians.MediaPlayers.dll" target="lib\Xamarin.iOS10\Xamarians.MediaPlayers.dll" />
+     <file src="..\Xamarians.MediaPlayer.iOS\bin\Debug\Xamarians.MediaPlayers.pdb" target="lib\Xamarin.iOS10\Xamarians.MediaPlayers.xml" />
+     <file src="..\Xamarians.MediaPlayer.iOS\bin\Debug\Xamarians.MediaPlayers.iOS.dll" target="lib\Xamarin.iOS10\Xamarians.MediaPlayers.iOS.dll" />
+     <file src="..\Xamarians.MediaPlayer.iOS\bin\Debug\Xamarians.MediaPlayers.iOS.pdb" target="lib\Xamarin.iOS10\Xamarians.MediaPlayers.iOS.pdb" />
+   
+   </files>
+</package>

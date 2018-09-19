@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{D5C92AFC-0C4B-4791-91CF-ADA2738551B7}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="VideoPlayerDemo/VideoPlayerDemo/TestPage.cs" Line="20" Column="1" />
+      <File FileName="Xamarians.MediaPlayer/AudioPlayer.cs" Line="125" Column="64" />
+      <File FileName="Xamarians.MediaPlayer/VideoPlayer.cs" Line="363" Column="26" />
+      <File FileName="Xamarians.MediaPlayer.iOS/AudioPlayerNative.cs" Line="70" Column="30" />
+      <File FileName="Xamarians.MediaPlayer.iOS/VideoPlayerRenderer.cs" Line="181" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/arjun/Documents/SK/XamariansMediaPlayer/Xamarians.MediaPlayer.iOS/VideoPlayerRenderer.cs" relfile="Xamarians.MediaPlayer.iOS/VideoPlayerRenderer.cs" line="257" column="1" />
+      <Breakpoint file="/Users/arjun/Documents/SK/XamariansMediaPlayer/Xamarians.MediaPlayer.iOS/VideoPlayerRenderer.cs" relfile="Xamarians.MediaPlayer.iOS/VideoPlayerRenderer.cs" line="252" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Sample.VideoPlayerDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.aff365ee23e750ddf54139b394f31818b89356a0" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Xamarians.MediaPlayer.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

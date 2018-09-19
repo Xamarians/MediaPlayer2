@@ -1,0 +1,77 @@
+<html>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;  charset=utf-8">
+<head>
+<title>Access Denied</title>
+<script language="JavaScript" type="text/javascript">
+  function print_url()
+  {
+    var url = "http://www.sample-videos.com/audio/mp3/india-national-anthem.mp3"
+    var small_url = url;
+    if (url.length > 40) {
+      small_url = url.substring(0,40);
+      small_url += " ....";
+    }
+  	document.write('<span style="color:blue">' + small_url + '</span>');
+  }
+</script>
+<style type='text/css'>
+.logo_text { font-family: Georgia; color: #697c52; font-style: italic; font-size: 30px; max-width:700px;max-height:200px;}
+</style>
+</head>
+<body bgcolor=#eeeeee>
+<center>
+<table border=0 cellspacing=0 cellpadding=2 height=540 width=700>
+<tr>
+	<td colspan=2 align=center height=>
+          <div style="overflow-y:hidden;max-height:200px;">
+	           <img src="http://192.168.1.1/site/wp/logo_blocked.png?m=84b0b893cc9dc4bb2a4a1cdd988fdecf" alt="AnexGATE   -Successive Software" class="logo_text"/>
+          </div>
+	</td>
+</tr>
+<tr>
+      <td colspan=2>
+        <table border=0 cellspacing=0 cellpadding=2 height=30 width=700>
+          <tr bgcolor=#d5e2f1>
+	          <td align="left" width="35%">
+	            <font face=arial,helvetica size=3 color=black>Group: <b>Users- Limited Access</b></font>
+           </td>
+	          <td align="center" width="30%">
+	            <font face=arial,helvetica size=3 color=blue>AnexGATE   -Successive Software</b></font>
+           </td>
+	         <td  align="right" width="35%">
+	           <font face=arial,helvetica size=3 color=black>IP: <b>192.168.1.174&nbsp;</b></font>
+	         </td>
+          </tr>
+        </table>
+      </td>
+</tr>
+<tr>
+	<td bgcolor=#eeeeee align=center valign=center>
+	<font face=arial,helvetica color=black>
+	<font size=4>
+	Access to the page:
+	<br><br>
+  <script language="JavaScript" type="text/javascript">
+     print_url();
+  </script>
+	<br><br>
+	<font size=3>
+	has been denied for the following reason:
+	<br><br>
+	<font color=red>
+	<b>Banned extension: .mp3</b>
+	<font color=black>
+	<br><br>Categories:<br><br>
+	<font color=red>
+	<b>Banned extension</b>
+	<font color=black>
+	<br><br><br>
+  You are seeing this error because what you attempted to access appears to contain, or is labeled as containing, material that has been deemed inappropriate.<br><br>
+  If you have any queries contact your Network Manager.
+	<br><br>
+	<font size=1>
+	</td>
+</tr>
+</table>
+</body>
+</html>

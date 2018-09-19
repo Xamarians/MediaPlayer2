@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:VideoPlayerDemo"
+             xmlns:xamarians="clr-namespace:Xamarians.MediaPlayers;assembly=Xamarians.MediaPlayers"
+             x:Class="VideoPlayerDemo.MainPage">
+
+    <ContentPage.Content>
+        <xamarians:VideoPlayer x:Name="videoPlayer" AutoPlay="True" Completed="VideoPlayer_Completed" Mute="True" Prepared="VideoPlayer_Prepared" Error="VideoPlayer_ErrorAsync" SeekBarPositionChanged="VideoPlayer_SeekBarPositionChanged">
+            <xamarians:VideoPlayer.Source>
+                <x:Array x:Key="stringArray" Type="{x:Type x:String}">
+                    <x:String>storage/emulated/0/compressedvideo/VID_20170501172849565.mp4</x:String>
+                    <x:String>http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4</x:String>
+                    <x:String>http://techslides.com/demos/sample-videos/small.mp4</x:String>
+                    <x:String>http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4</x:String>
+                </x:Array>
+            </xamarians:VideoPlayer.Source>
+        </xamarians:VideoPlayer>
+    </ContentPage.Content>
+</ContentPage>
