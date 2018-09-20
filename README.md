@@ -45,4 +45,4 @@ Also add following lines in info.plist to allow app to open url over http.
 
 
 ### For any issue with library please report here 
-https://github.com/Xamarians/MediaPlayer/issues/new
+https://github.com/Xamarians/MediaPlayer2/issues/new
